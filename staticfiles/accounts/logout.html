@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block pagecontent %}
+<div style="margin-top:30px;">
+	{% if logout %}
+		<div style="color:green">{{ Logout }}</div>
+	{% endif %}
+	You are not login <a href="login">Login</login>
+</div>
+{% endblock pagecontent %}
